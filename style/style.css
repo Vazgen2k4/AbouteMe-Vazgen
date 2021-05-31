@@ -15,7 +15,12 @@
     font-family: 'Montserrat';    
 }
 
-body {background:var(--whiteColor);}
+body {
+    background:var(--whiteColor);
+}
+html {
+    scroll-behavior: smooth;
+}
 /* Header
 ============================================================ */
 .header {
@@ -447,6 +452,7 @@ body {background:var(--whiteColor);}
     line-height: 22px;
     padding: 19px 20px;
     background: var(--whiteColor);
+    border-radius: 0;
 }
 
 .works .nav-pills .nav-link.active { 
