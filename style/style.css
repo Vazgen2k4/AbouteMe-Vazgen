@@ -475,6 +475,20 @@ html {
     align-items: center;
 }
 
+.works__img {
+    width: 100%;
+    max-width: 250px;
+    transition: transform .3s;
+}
+
+.works__content img {
+    width: 100%;
+}
+
+.works__img:hover { 
+    transform: scale(1.05);
+}
+
 .works__name {
     color: var(--primaryColor);
     font-weight: 600;
@@ -489,7 +503,7 @@ html {
     color: var(--blackColor);
     font-size: 18px;
     line-height: 27px;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
 }
 
 .works__desr li:last-child {
