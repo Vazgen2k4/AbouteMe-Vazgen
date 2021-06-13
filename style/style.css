@@ -23,6 +23,9 @@ html {
     scroll-behavior: smooth !important;
 }
 
+._NoScroll {
+    overflow: hidden;
+}
 
 
 /* Header
@@ -636,19 +639,34 @@ html {
 /* Модальные окна
 =========================================================== */
 .modal {
-    display: none;
-    position: fixed;
-    align-items: center;
+    display: flex !important;
     justify-content: center;
+    align-items: center;
     width: 100%;
     height: 100vh;
-    z-index: 120;
-    background: rgba(0, 0, 0, 0.8);
     padding: 15px;
+    border-radius: 50%;
+
+    position: fixed;
+    top: -150%;
+    left:  150%;
+    z-index: 120;
+    
+    transition: top .5s, left .5s, border-radius .7s;
 }
 
 .modal.active {
-    overflow: hidden;
+    top: 0;
+    left: 0;
+    border-radius: 0;
+}
+
+.order__bg {
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0; left: 0;
 }
 
 .order__content {
@@ -816,6 +834,12 @@ html {
     }
     .cube3 {
         display: none;
+    }
+    .footer__list {
+        align-items: center;
+    } 
+    .footer__link {
+        margin: 0 15px;
     }
 }
 

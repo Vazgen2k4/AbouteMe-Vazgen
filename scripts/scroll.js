@@ -4,15 +4,17 @@ let navHeigth = document.querySelector('.header').clientHeight + 10;
 scrollBtns.forEach( e => {
     let scrollPosition;
     let idBlock;
-    e.addEventListener('click', function() {
-        e.preventDefault;
-        idBlock = this.dataset.scrollto == null ? '.header': `#${String(this.dataset.scrollto)}`;   
-        scrollPosition = document.querySelector(idBlock).offsetTop - navHeigth;
-        
-        window.scrollTo ({
-            top: scrollPosition,
-            left:0,
-            behavior:"smooth"
+    if(e.hasAttribute('data-scrollto')) {
+        e.addEventListener('click', function() {
+            e.preventDefault;
+            idBlock = this.dataset.scrollto == null ? '.header': `#${String(this.dataset.scrollto)}`;   
+            scrollPosition = document.querySelector(idBlock).offsetTop - navHeigth;
+            
+            window.scrollTo ({
+                top: scrollPosition,
+                left:0,
+                behavior:"smooth"
+            });
         });
-    });
+    }
 });
