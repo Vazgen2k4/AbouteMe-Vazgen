@@ -1,6 +1,5 @@
 let scrollBtns = document.querySelectorAll('.header__link');
 let navHeigth = document.querySelector('.header').clientHeight + 10;
-console.log(navHeigth);
 
 scrollBtns.forEach( e => {
     let scrollPosition;
