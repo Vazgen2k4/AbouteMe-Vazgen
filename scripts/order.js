@@ -1,12 +1,14 @@
 let order = document.querySelector('#modal__order');
 let body = document.querySelector('#body');
-let exit = document.querySelector('#order__exit');
-let btn = document.querySelector('#header__order');
-let bg = document.querySelector('#order__bg');
+let exit = document.querySelectorAll('[data-order="order-exit"]');
+let btn = document.querySelectorAll('[data-order="order-active"]');
 
-btn.addEventListener('click', ClickBtnAdd);
-exit.addEventListener('click', ClickBtnDel);
-bg.addEventListener('click', ClickBtnDel);
+for (let i = 0; i < btn.length; i++) {
+    btn[i].addEventListener('click', ClickBtnAdd);
+}
+for (let i = 0; i < exit.length; i++) {
+    exit[i].addEventListener('click', ClickBtnDel);
+}
 
 function ClickBtnAdd (e) {
     e.preventDefault();

@@ -1,386 +1,432 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio by Vazgen</title>
-    <!-- @ Подключение стилей -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <link rel="stylesheet" href="fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="style/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio by Vazgen</title>
+  <!-- @ Подключение стилей -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <link rel="stylesheet" href="fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="style/style.css">
 </head>
 <body id="body">
-    
-    <header class="header">
-        <nav class="navbar navbar-expand-lg navbar-light header__nav">
-            <div class="container">
-              <a class="navbar-brand logo" href="#!">
-                  <span class="bars"></span>
-                  <span class="logo__span">my</span>
-                  work
-                  <span class="bright"></span>
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse header__collapse" id="navbarNav">
-                <ul class="navbar-nav header__list">
-                  <li class="nav-item">
-                    <a class="nav-link header__link" data-scrollto="carouselExampleIndicators" href="#!">Обо мне</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link header__link" data-scrollto="works" href="#!">работы</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link header__link header__order" id="header__order" href="#!">Заказать</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link header__link" href="tel:+998909820242">
-                        <i class="fal fa-phone-square-alt"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-        </nav>
-    </header>
-    
-    <main class="main">
-      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="container">
-              <div class="row">
-                <div class="col-xl-6 col-lg-6 col-12">
-                  <div class="slider__content">
-                    <div class="slider__txt">
-                      <h3 class="slider__title">Мое начало</h3>
-                      <p class="slider__descr">
-                        Саморазвитие и обучение в учебном центре
-                      </p>
-                      <a href="#!" class="slider__link">
-                        НАЧАТЬ СЕЙЧАС
-                      </a>
-                    </div>
-                    <div class="slider__icons">
-                      <div class="slider__icon">
-                        <img src="images/html.png" alt="">
-                        <p class="slider__name">html</p>
-                      </div>
-                      <div class="slider__icon">
-                        <img src="images/css.png" alt="">
-                        <p class="slider__name">css</p>
-                      </div>
-                      <div class="slider__icon">
-                        <img src="images/bootstrap.png" alt="">
-                        <p class="slider__name">bootstrap 5</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-xl-6 col-lg-6 col-12">
-                  <img src="images/slider.png" class="slider__img" alt="slider__img">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="container">
-              <div class="row">
-                <div class="col-xl-6 col-lg-6 col-12">
-                  <div class="slider__content">
-                    <div class="slider__txt">
-                      <h3 class="slider__title">My beginning</h3>
-                      <p class="slider__descr">
-                        Self-development and training in the training center
-                      </p>
-                      <a href="#!" class="slider__link">
-                        GET STARTED NOW
-                      </a>
-                    </div>
-                    <div class="slider__icons">
-                      <div class="slider__icon">
-                        <img src="images/html.png" alt="">
-                        <p class="slider__name">html</p>
-                      </div>
-                      <div class="slider__icon">
-                        <img src="images/css.png" alt="">
-                        <p class="slider__name">css</p>
-                      </div>
-                      <div class="slider__icon">
-                        <img src="images/bootstrap.png" alt="">
-                        <p class="slider__name">bootstrap 5</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-xl-6 col-lg-6 col-12">
-                  <img src="images/slider.png" class="slider__img" alt="slider__img">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
 
-        </div>
-        <div class="circle circle4"></div>
-        <div class="cube cube2"></div>
-        <div class="cube cube3"></div>
-        <div class="cube cube4"></div>
-      </div>
-      
-      <div class="front">
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-6 col-lg-6 col-12">
-              <div class="front__picture">
-                <img src="images/code.png" alt="" class="front__img">
-                <h3 class="front__abs">my work for <span class="front__five">5+</span></h3>
-              </div>
-            </div>
-            <div class="col-xl-6 col-lg-6 col-12">
-              <div class="front__content">
-                <h2 class="front__title">Что такое Front-End</h2>
-                <ul class="front__descr">
-                  <li>
-                    Это разработка пользовательского интерфейса и функций, которые выполняются на стороне клиента веб-сайта или приложения. Это всё, что пользователь видит при открытии веб-страницы или веб-приложения и с чем он взаимодействует.
-                    
-                  </li>
-                  <li>
-                    Это все, что видит пользователь при открытии веб-страницы и с чем он взаимодействует.
-                  </li>
-                </ul>
-                <a href="#!" class="front__link">go to work</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <img src="images/bg-right.svg" alt="" class="bg__right">
-      </div><!--@ front -->
-
-      <div class="cap">
-        <div class="container">
-          <h2 class="cap__title">capabilities</h2>
-          <div class="row align-items-center">
-            <div class="col-xl-6 col-lg-6 col-12">
-              <div class="cap__accord">
-                <div class="circle circle1"></div>
-                <div class="accordion" id="accordionExample">
-                  <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingOne">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        <img src="images/htmlmin.png" alt="">
-                        <span>html</span>
-                      </button>
-                    </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                      <div class="accordion-body">
-                        <strong>HTML5</strong> можно назвать основным языком Всемирной паутины. Большинство веб-страниц, размещенных в Интернете, написаны в какой-либо из вариаций HTML. С помощью него разработчики определяют то, как мультимедиа, текст или гиперссылки будут отображаться среди другого контента в браузере. Начиная от элементов, которые устанавливают связи с вашим документом (гипертекстом), до элементов которые делают эти документы интерактивными (например формы) — все это является составными частями <strong>HTML5</strong>.
-                      </div>
-                    </div>
-                  </div><!-- @ accordion-item -->
-                  <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingTwo">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        <img src="images/cssmin.png" alt="">
-                        <span>css</span>
-                      </button>
-                    </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                      <div class="accordion-body">
-                        <strong>Спецификация CSS3</strong> — это неоспоримое будущее в области декоративного оформления веб-страниц, и ее разработка еще далека от завершения. Большинство модулей все еще продолжает совершенствоваться и модифицироваться, и ни один браузер не поддерживает все модули. Это означает, что CSS3 испытывает такие же сложности, как и <strong>HTML5</strong>. Веб-разработчикам нужно решать, какие возможности использовать, а какие игнорировать, а также каким образом заполнить зияющие пробелы в браузерной поддержке.
-                      </div>
-                    </div>
-                  </div><!-- @ accordion-item -->
-                  <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingThree">
-                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        <i class="fab fa-bootstrap"></i>
-                        <span>bootstrap 5</span>
-                      </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                      <div class="accordion-body">
-                        <strong>Bootstrap</strong> — это открытый и бесплатный HTML, CSS и JS фреймворк, который используется веб-разработчиками для быстрой вёрстки адаптивных дизайнов сайтов и веб-приложений
-                      </div>
-                    </div>
-                  </div><!-- @ accordion-item -->
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-6 col-lg-6 col-12">
-              <img src="images/boy.png" alt="" class="cap__img">
-            </div>
-          </div>
-        </div>
-      </div><!-- @ cap -->
-
-      <div class="works" id="works">
-        <div class="container">
-          <h2 class="cap__title works__title">Мои работы</h2>
-          <div class="row">
-            <div class="col-xl-3 col-lg-4 col-12">
-                <div class="nav flex-column nav-pills " id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                  <a class="nav-link active" id="VueCinema-tab" data-bs-toggle="pill" href="#VueCinema" role="tab" aria-controls="VueCinema" aria-selected="true">VueCinema</a>
-                  <a class="nav-link" id="amind-tab" data-bs-toggle="pill" href="#amind" role="tab" aria-controls="amind" aria-selected="false">Amid</a>
-                  <a class="nav-link" id="InderVets-tab" data-bs-toggle="pill" href="#InderVets" role="tab" aria-controls="InderVets" aria-selected="false">Inder Vets</a>
-                  <a class="nav-link" id="ojjo-tab" data-bs-toggle="pill" href="#ojjo" role="tab" aria-controls="ojjo" aria-selected="false"> ojjo</a>
-                  <a class="nav-link" id="openShop-tab" data-bs-toggle="pill" href="#openShop" role="tab" aria-controls="openShop" aria-selected="false">openShop88</a>
-                </div>
-            </div><!-- @ col -->
-            <div class="col-xl-9 col-lg-8 col-12">
-              <div class="tab-content" id="v-pills-tabContent">
-                <div class="tab-pane fade show active" id="VueCinema" role="tabpanel" aria-labelledby="VueCinema-tab">
-                  <div class="works__content">
-                    <a href="#!" class="works__img">
-                      <img src="images/VueCinema.png" alt="">
-                    </a>
-                    <div class="works__txt">
-                      <h3 class="works__name">Vue Cinema</h3>
-                      <ul class="works__desr">
-                        <li>
-                          Сайт сделаный во время обучения в Proweb, напсанный на grid-элементах, Был свёрстан за 2-2.5 часа 
-                        </li>
-                        <li>
-                          Сайт одностраничный, по структуре интересный, и в нескольких местах итерактивный 〜(꒪꒳꒪)〜
-                        </li>
-                      </ul>
-                      <a href="#!" class="works__link">Перейти</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="tab-pane fade" id="amind" role="tabpanel" aria-labelledby="amind-tab">
-                  <div class="works__content">
-                    <a href="https://vazgen2k4.github.io/Amind/index.html" class="works__img">
-                      <img src="images/Amin.jpg" alt="amind">
-                    </a>
-                    <div class="works__txt">
-                      <h3 class="works__name">Amid</h3>
-                      <ul class="works__desr">
-                        <li>
-                          Протенький лендинг, предназначенный для быстрово ознакомления с компанией. В нём храниться лишь основная информация.  
-                        </li>
-                        <li>
-                          Сайт был разработан мной за несколько часов(3дня по 2 часа) с адаптивом и итерактивностью
-                        </li>
-                      </ul>
-                      <a href="https://vazgen2k4.github.io/Amind/index.html" class="works__link">Перейти</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="tab-pane fade" id="InderVets" role="tabpanel" aria-labelledby="InderVets-tab">
-                  <div class="works__content">
-                    <a href="https://vazgen2k4.github.io/IndeVets/" class="works__img">
-                      <img src="images/InderVets.png" alt="">
-                    </a>
-                    <div class="works__txt">
-                      <h3 class="works__name">Inder Vets</h3>
-                      <ul class="works__desr">
-                        <li>
-                          Сайт InderVerds (лендинг), разработанный специально для конкурса в организации современный технологий Proweb к 31.05.2021 году
-                        </li>
-                        <li>
-                          Кстати, между прочим этот одностраничник взял первое место <br> 〜(꒪꒳꒪)〜 
-                        </li>
-                      </ul>
-                      <a href="https://vazgen2k4.github.io/IndeVets/" class="works__link">Перейти</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="tab-pane fade" id="ojjo" role="tabpanel" aria-labelledby="ojjo-tab">
-                  <div class="works__content">
-                    <a href="https://vazgen2k4.github.io/OJJO/" class="works__img">
-                      <img src="images/ojjo.png" alt="">
-                    </a>
-                    <div class="works__txt">
-                      <h3 class="works__name">OJJO</h3>
-                      <ul class="works__desr">
-                        <li>
-                          OJJO - прототип онлайе мангазина, созданный ради практики и повышения квалификации своих качеств верстальщика 
-                        </li>
-                        <li>
-                          Сам сайт, а если быть точнее Html страничка очень интепресна своим дизайном, я рекомендую каждому пройти и глянуть <br> ┌(・。・)┘♪
-                        </li>
-                      </ul>
-                      <a href="https://vazgen2k4.github.io/OJJO/" class="works__link">Перейти</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="tab-pane fade" id="openShop" role="tabpanel" aria-labelledby="openShop-tab">
-                  <div class="works__content">
-                    <a href="https://vazgen2k4.github.io/OpenShop-by-Vazgen/" class="works__img">
-                      <img src="images/OpenShop.png" alt="">
-                    </a>
-                    <div class="works__txt">
-                      <h3 class="works__name">Open Shop</h3>
-                      <ul class="works__desr">
-                        <li>
-                          Open Shop - это сайт-магазин созданный во время обучения в Proweb. 3-х страничный и естественно с адаптивом
-                        </li>
-                        <li>
-                          Это был мой первый сайт где мне довелось использовать Bootstrap5. Потратил на него прелично времени(7 часов), но ничуть не расстроен этим, так как могу точно сказать что владею Bootstrap-ом без каких-либо проблем ¯\_(ツ)_/¯
-                        </li>
-                      </ul>
-                      <a href="https://vazgen2k4.github.io/OpenShop-by-Vazgen/" class="works__link">Перейти</a>
-                    </div>
-                  </div>
-                </div>
-                
-              </div>
-            </div><!-- @ col -->
-          </div><!-- @ row -->
-        </div>
-        <img src="images/bg-left.svg" alt="" class="bg__left">
-        <div class="cube cube1"></div>
-      </div><!-- @ works -->
-    </main>
-  
-    <footer class="footer">
+  <header class="header">
+    <nav class="navbar navbar-expand-lg navbar-light header__nav">
       <div class="container">
-        <div class="footer__content">
-          <a class="navbar-brand logo" href="#!">
-            <span class="bars"></span>
-            <span class="logo__span">my</span>
-            work
-            <span class="bright"></span>
-          </a>
-          <ul class="footer__list d-flex">
-            <div class="li"><a data-scrollto="carouselExampleIndicators" href="#!" class="header__link footer__link">Обо мне</a></div>
-            <div class="li"><a data-scrollto="works" href="#!" class="header__link footer__link">работы</a></div>
-            <div class="li"><a href="#!" class="footer__link footer__contacts">контакты</a></div>
+        <a class="navbar-brand logo" href="index.html">
+          <span class="bars"></span>
+          <span class="logo__span">my</span>
+          work
+          <span class="bright"></span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse header__collapse" id="navbarNav">
+          <ul class="navbar-nav header__list">
+            <li class="nav-item">
+              <a class="nav-link header__link" data-scrollto="carouselExampleIndicators" href="#!">Обо мне</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link header__link" data-scrollto="works" href="#!">работы</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link header__link header__order" data-order="order-active" href="#!">Заказать</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link header__link" href="tel:+998909820242">
+                <i class="fal fa-phone-square-alt"></i>
+              </a>
+            </li>
           </ul>
-          <div class="footer__elems d-flex">
-            <a href="tel:+998909829242" class="footer__link">(90) 982-02-42</a>
-            <a href="mailto:Vazgen2004proweb@gmail.com" class="footer__link">Vazgen2004</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-6 col-lg-6 col-12">
+                <div class="slider__content">
+                  <div class="slider__txt">
+                    <h3 class="slider__title">Мое начало</h3>
+                    <p class="slider__descr">
+                      Саморазвитие и обучение в учебном центре
+                    </p>
+                    <a href="#!" class="slider__link">
+                      НАЧАТЬ СЕЙЧАС
+                    </a>
+                  </div>
+                  <div class="slider__icons">
+                    <div class="slider__icon">
+                      <img src="images/html.png" alt="">
+                      <p class="slider__name">html</p>
+                    </div>
+                    <div class="slider__icon">
+                      <img src="images/css.png" alt="">
+                      <p class="slider__name">css</p>
+                    </div>
+                    <div class="slider__icon">
+                      <img src="images/bootstrap.png" alt="">
+                      <p class="slider__name">bootstrap 5</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-6 col-12">
+                <img src="images/slider.png" class="slider__img" alt="slider__img">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-6 col-lg-6 col-12">
+                <div class="slider__content">
+                  <div class="slider__txt">
+                    <h3 class="slider__title">My beginning</h3>
+                    <p class="slider__descr">
+                      Self-development and training in the training center
+                    </p>
+                    <a href="#!" class="slider__link">
+                      GET STARTED NOW
+                    </a>
+                  </div>
+                  <div class="slider__icons">
+                    <div class="slider__icon">
+                      <img src="images/html.png" alt="">
+                      <p class="slider__name">html</p>
+                    </div>
+                    <div class="slider__icon">
+                      <img src="images/css.png" alt="">
+                      <p class="slider__name">css</p>
+                    </div>
+                    <div class="slider__icon">
+                      <img src="images/bootstrap.png" alt="">
+                      <p class="slider__name">bootstrap 5</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-6 col-12">
+                <img src="images/slider.png" class="slider__img" alt="slider__img">
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="circle circle2"></div>
-      <div class="circle circle3"></div>
-    </footer>
-    
-    <div class="modal order" id="modal__order">
-      <div class="order__bg" id="order__bg"></div>
-      <div class="order__content">
-        <a href="#!" id="order__exit" class="order__exit"><i class="fas fa-times-hexagon"></i></a>
-        <h2 class="order__title">Заказ проекта</h2>
-        <p class="order__descr">Заказать вёрстку сайта можно связавшись со мной одним из следующих способов <br> <span>Вазген. (. ❛ ᴗ ❛.)</span> </p>
-        <ul class="order__list">
-          <li class="order__list-items"><a target="_blank" href="https://www.facebook.com/profile.php?id=100018166236433" class="order__list-links"><i class="fab fa-facebook-square"></i></a></li>
-          <li class="order__list-items"><a target="_blank" href="https://www.instagram.com/overlord2k4/" class="order__list-links"><i class="fab fa-instagram"></i></a></li>
-          <li class="order__list-items"><a target="_blank" href="https://t.me/OverLord2k4" class="order__list-links"><i class="fab fa-telegram-plane"></i></a></li>
-          <li class="order__list-items"><a href="tel:+998909820242" class="order__list-links"><i class="fas fa-mobile"></i></a></li>
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+
+      </div>
+      <div class="circle circle4"></div>
+      <div class="cube cube2"></div>
+      <div class="cube cube3"></div>
+      <div class="cube cube4"></div>
+    </div>
+
+    <div class="front">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6 col-lg-6 col-12">
+            <div class="front__picture">
+              <img src="images/code.png" alt="" class="front__img">
+              <h3 class="front__abs">my work for <span class="front__five">5+</span></h3>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6 col-12">
+            <div class="front__content">
+              <h2 class="front__title">Что такое Front-End</h2>
+              <ul class="front__descr">
+                <li>
+                  Это разработка пользовательского интерфейса и функций, которые выполняются на стороне клиента
+                  веб-сайта или приложения. Это всё, что пользователь видит при открытии веб-страницы или веб-приложения
+                  и с чем он взаимодействует.
+
+                </li>
+                <li>
+                  Это все, что видит пользователь при открытии веб-страницы и с чем он взаимодействует.
+                </li>
+              </ul>
+              <a href="#!" class="front__link" data-order="order-active" >go to work</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="images/bg-right.svg" alt="" class="bg__right">
+    </div>
+    <!--@ front -->
+
+    <div class="cap">
+      <div class="container">
+        <h2 class="cap__title">capabilities</h2>
+        <div class="row align-items-center">
+          <div class="col-xl-6 col-lg-6 col-12">
+            <div class="cap__accord">
+              <div class="circle circle1"></div>
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      <img src="images/htmlmin.png" alt="">
+                      <span>html</span>
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>HTML5</strong> можно назвать основным языком Всемирной паутины. Большинство веб-страниц,
+                      размещенных в Интернете, написаны в какой-либо из вариаций HTML. С помощью него разработчики
+                      определяют то, как мультимедиа, текст или гиперссылки будут отображаться среди другого контента в
+                      браузере. Начиная от элементов, которые устанавливают связи с вашим документом (гипертекстом), до
+                      элементов которые делают эти документы интерактивными (например формы) — все это является
+                      составными частями <strong>HTML5</strong>.
+                    </div>
+                  </div>
+                </div><!-- @ accordion-item -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      <img src="images/cssmin.png" alt="">
+                      <span>css</span>
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>Спецификация CSS3</strong> — это неоспоримое будущее в области декоративного оформления
+                      веб-страниц, и ее разработка еще далека от завершения. Большинство модулей все еще продолжает
+                      совершенствоваться и модифицироваться, и ни один браузер не поддерживает все модули. Это означает,
+                      что CSS3 испытывает такие же сложности, как и <strong>HTML5</strong>. Веб-разработчикам нужно
+                      решать, какие возможности использовать, а какие игнорировать, а также каким образом заполнить
+                      зияющие пробелы в браузерной поддержке.
+                    </div>
+                  </div>
+                </div><!-- @ accordion-item -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      <i class="fab fa-bootstrap"></i>
+                      <span>bootstrap 5</span>
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>Bootstrap</strong> — это открытый и бесплатный HTML, CSS и JS фреймворк, который
+                      используется веб-разработчиками для быстрой вёрстки адаптивных дизайнов сайтов и веб-приложений
+                    </div>
+                  </div>
+                </div><!-- @ accordion-item -->
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6 col-12">
+            <img src="images/boy.png" alt="" class="cap__img">
+          </div>
+        </div>
+      </div>
+    </div><!-- @ cap -->
+
+    <div class="works" id="works">
+      <div class="container">
+        <h2 class="cap__title works__title">Мои работы</h2>
+        <div class="row">
+          <div class="col-xl-3 col-lg-4 col-12">
+            <div class="nav flex-column nav-pills " id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              <a class="nav-link active" id="VueCinema-tab" data-bs-toggle="pill" href="#VueCinema" role="tab"
+                aria-controls="VueCinema" aria-selected="true">VueCinema</a>
+              <a class="nav-link" id="amind-tab" data-bs-toggle="pill" href="#amind" role="tab" aria-controls="amind"
+                aria-selected="false">Amid</a>
+              <a class="nav-link" id="InderVets-tab" data-bs-toggle="pill" href="#InderVets" role="tab"
+                aria-controls="InderVets" aria-selected="false">Inder Vets</a>
+              <a class="nav-link" id="ojjo-tab" data-bs-toggle="pill" href="#ojjo" role="tab" aria-controls="ojjo"
+                aria-selected="false"> ojjo</a>
+              <a class="nav-link" id="openShop-tab" data-bs-toggle="pill" href="#openShop" role="tab"
+                aria-controls="openShop" aria-selected="false">openShop88</a>
+            </div>
+          </div><!-- @ col -->
+          <div class="col-xl-9 col-lg-8 col-12">
+            <div class="tab-content" id="v-pills-tabContent">
+              <div class="tab-pane fade show active" id="VueCinema" role="tabpanel" aria-labelledby="VueCinema-tab">
+                <div class="works__content">
+                  <a href="https://vazgen2k4.github.io/VueCinema/" class="works__img" >
+                    <img src="images/VueCinema.png" alt="">
+                  </a>
+                  <div class="works__txt">
+                    <h3 class="works__name">Vue Cinema</h3>
+                    <ul class="works__desr">
+                      <li>
+                        Сайт сделанный во время обучения в Proweb, напсанный на grid-элементах, Был свёрстан за 3 часа
+                      </li>
+                      <li>
+                        Сайт - одностраничный, по структуре интересный, и в нескольких местах итерактивный 〜(꒪꒳꒪)〜
+                      </li>
+                    </ul>
+                    <a href="https://vazgen2k4.github.io/VueCinema/" class="works__link">Перейти</a>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="amind" role="tabpanel" aria-labelledby="amind-tab">
+                <div class="works__content">
+                  <a href="https://vazgen2k4.github.io/Amind/index.html" class="works__img" >
+                    <img src="images/Amin.jpg" alt="amind">
+                  </a>
+                  <div class="works__txt">
+                    <h3 class="works__name">Amid</h3>
+                    <ul class="works__desr">
+                      <li>
+                        Простенький лендинг, предназначенный для быстрово ознакомления с компанией. В нём храниться лишь
+                        основная информация.
+                      </li>
+                      <li>
+                        Сайт был разработан мной за несколько часов(3дня по 2 часа) с адаптивом и итерактивностью
+                      </li>
+                    </ul>
+                    <a href="https://vazgen2k4.github.io/Amind/index.html" class="works__link">Перейти</a>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="InderVets" role="tabpanel" aria-labelledby="InderVets-tab">
+                <div class="works__content">
+                  <a href="https://vazgen2k4.github.io/IndeVets/" class="works__img" >
+                    <img src="images/InderVets.png" alt="">
+                  </a>
+                  <div class="works__txt">
+                    <h3 class="works__name">Inder Vets</h3>
+                    <ul class="works__desr">
+                      <li>
+                        Сайт InderVerds (лендинг), разработанный специально для конкурса в организации современный
+                        технологий Proweb к 31.05.2021 году
+                      </li>
+                      <li>
+                        Кстати, между прочим этот одностраничник взял первое место <br> 〜(꒪꒳꒪)〜
+                      </li>
+                    </ul>
+                    <a href="https://vazgen2k4.github.io/IndeVets/" class="works__link">Перейти</a>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="ojjo" role="tabpanel" aria-labelledby="ojjo-tab">
+                <div class="works__content">
+                  <a href="https://vazgen2k4.github.io/OJJO/" class="works__img" >
+                    <img src="images/ojjo.png" alt="">
+                  </a>
+                  <div class="works__txt">
+                    <h3 class="works__name">OJJO</h3>
+                    <ul class="works__desr">
+                      <li>
+                        OJJO - прототип онлайн мангазина, созданный ради практики и повышения квалификации своих качеств
+                        верстальщика
+                      </li>
+                      <li>
+                        Сам сайт, а если быть точнее Html страничка, очень интересна своим дизайном, я рекомендую
+                        каждому пройти и глянуть <br> ┌(・。・)┘♪
+                      </li>
+                    </ul>
+                    <a href="https://vazgen2k4.github.io/OJJO/" class="works__link">Перейти</a>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="openShop" role="tabpanel" aria-labelledby="openShop-tab">
+                <div class="works__content">
+                  <a href="https://vazgen2k4.github.io/OpenShop-by-Vazgen/" class="works__img" >
+                    <img src="images/OpenShop.png" alt="">
+                  </a>
+                  <div class="works__txt">
+                    <h3 class="works__name">Open Shop</h3>
+                    <ul class="works__desr">
+                      <li>
+                        Open Shop - это сайт-магазин созданный во время обучения в Proweb. 3-х страничный и естественно
+                        с адаптивом
+                      </li>
+                      <li>
+                        Это был мой первый сайт где мне довелось использовать Bootstrap5. Потратил на него прелично
+                        времени(7 часов), но ничуть не расстроен этим, так как могу точно сказать что владею
+                        Bootstrap-ом без каких-либо проблем ¯\_(ツ)_/¯
+                      </li>
+                    </ul>
+                    <a href="https://vazgen2k4.github.io/OpenShop-by-Vazgen/" class="works__link">Перейти</a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div><!-- @ col -->
+        </div><!-- @ row -->
+      </div>
+      <img src="images/bg-left.svg" alt="" class="bg__left">
+      <div class="cube cube1"></div>
+    </div><!-- @ works -->
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+        <a class="navbar-brand logo" href="index.html">
+          <span class="bars"></span>
+          <span class="logo__span">my</span>
+          work
+          <span class="bright"></span>
+        </a>
+        <ul class="footer__list d-flex">
+          <div class="li"><a data-scrollto="carouselExampleIndicators" href="#!" class="header__link footer__link">Обо
+              мне</a></div>
+          <div class="li"><a data-scrollto="works" href="#!" class="header__link footer__link">работы</a></div>
+          <div class="li"><a href="#!" class="footer__link footer__contacts">контакты</a></div>
         </ul>
+        <div class="footer__elems d-flex">
+          <a href="tel:+998909829242" class="footer__link">(90) 982-02-42</a>
+          <a href="mailto:Vazgen2004proweb@gmail.com" class="footer__link">Vazgen2004</a>
+        </div>
       </div>
     </div>
-    
-    <!-- @ Подключение JavaScript файлов -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-    <script src="scripts/scroll.js"></script>
-    <script src="scripts/order.js"></script>
+    <div class="circle circle2"></div>
+    <div class="circle circle3"></div>
+  </footer>
+
+  <!--@ Модалные окна  -->
+  <div class="modal order" id="modal__order">
+    <div class="order__bg" data-order="order-exit"></div>
+    <div class="order__content">
+      <a href="#!" data-order="order-exit" class="order__exit"><i class="fas fa-times-hexagon"></i></a>
+      <h2 class="order__title">Заказ проекта</h2>
+      <p class="order__descr">Заказать вёрстку сайта можно связавшись со мной одним из следующих способов <br>
+        <span>Вазген. (. ❛ ᴗ ❛.)</span> </p>
+      <ul class="order__list">
+        <li class="order__list-items"><a target="_blank" href="https://www.facebook.com/profile.php?id=100018166236433"
+            class="order__list-links"><i class="fab fa-facebook-square"></i></a></li>
+        <li class="order__list-items"><a target="_blank" href="https://www.instagram.com/overlord2k4/"
+            class="order__list-links"><i class="fab fa-instagram"></i></a></li>
+        <li class="order__list-items"><a target="_blank" href="https://t.me/OverLord2k4" class="order__list-links"><i
+              class="fab fa-telegram-plane"></i></a></li>
+        <li class="order__list-items"><a href="tel:+998909820242" class="order__list-links"><i
+              class="fas fa-mobile"></i></a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- @ Подключение JavaScript файлов -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
+  <script src="scripts/scroll.js"></script>
+  <script src="scripts/order.js"></script>
 </body>
 </html>
