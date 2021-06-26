@@ -32,11 +32,11 @@
             <li class="nav-item">
               <a class="nav-link header__link" data-scrollto="carouselExampleIndicators" href="#!">Обо мне</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item"> 
               <a class="nav-link header__link" data-scrollto="works" href="#!">работы</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link header__link header__order" data-order="order-active" href="#!">Заказать</a>
+              <a class="nav-link header__link header__order" data-modal-btn="modal__order" href="#!">Заказать</a>
             </li>
             <li class="nav-item">
               <a class="nav-link header__link" href="tel:+998909820242">
@@ -62,7 +62,7 @@
                     <p class="slider__descr">
                       Саморазвитие и обучение в учебном центре
                     </p>
-                    <a href="#!" class="slider__link">
+                    <a href="#!" data-modal-btn="modal__summary" class="slider__link">
                       НАЧАТЬ СЕЙЧАС
                     </a>
                   </div>
@@ -389,7 +389,7 @@
           <div class="li"><a data-scrollto="carouselExampleIndicators" href="#!" class="header__link footer__link">Обо
               мне</a></div>
           <div class="li"><a data-scrollto="works" href="#!" class="header__link footer__link">работы</a></div>
-          <div class="li"><a href="#!" class="footer__link footer__contacts">контакты</a></div>
+          <div class="li"><a href="#!" class="footer__link footer__contacts" data-order="order-active">контакты</a></div>
         </ul>
         <div class="footer__elems d-flex">
           <a href="tel:+998909829242" class="footer__link">(90) 982-02-42</a>
@@ -402,10 +402,11 @@
   </footer>
 
   <!--@ Модалные окна  -->
+  <!-- Модалка для предложения услуг -->
   <div class="modal order" id="modal__order">
-    <div class="order__bg" data-order="order-exit"></div>
+    <div class="order__bg" data-modal-exit="modal__order"></div>
     <div class="order__content">
-      <a href="#!" data-order="order-exit" class="order__exit"><i class="fas fa-times-hexagon"></i></a>
+      <a href="#!"  data-modal-exit="modal__order" class="order__exit"><i class="fas fa-times-hexagon"></i></a>
       <h2 class="order__title">Заказ проекта</h2>
       <p class="order__descr">Заказать вёрстку сайта можно связавшись со мной одним из следующих способов <br>
         <span>Вазген. (. ❛ ᴗ ❛.)</span> </p>
@@ -421,12 +422,22 @@
       </ul>
     </div>
   </div>
+  <!-- Модалка для резюме -->
+  <div class="modal order" id="modal__summary">
+    <div class="order__bg" data-modal-exit="modal__summary"></div>
+    <div class="order__content">
+      <a href="#!"  data-modal-exit="modal__summary" class="order__exit"><i class="fas fa-times-hexagon"></i></a>
+      <h2 class="order__title">Заказ проекта</h2>
+      <p class="order__descr">Заказать вёрстку сайта можно связавшись со мной одним из следующих способов <br>
+        <span>Вазген. (. ❛ ᴗ ❛.)</span> </p>
+    </div>
+  </div>
 
   <!-- @ Подключение JavaScript файлов -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
     crossorigin="anonymous"></script>
   <script src="scripts/scroll.js"></script>
-  <script src="scripts/order.js"></script>
+  <script src="scripts/modal.js"></script>
 </body>
 </html>
